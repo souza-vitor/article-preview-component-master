@@ -3,3 +3,27 @@
 :root {
     font-family: 'Manrope', sans-serif;
 }
+
+body {
+    background-color: hsl(210, 46%, 95%);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card {
+    max-width: 850px;
+}
+
+.desc {
+    line-height: 1.75;
+}
+
+.share {
+    cursor: pointer;
+}
